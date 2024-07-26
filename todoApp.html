@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todoApp.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="layout">
+        <div class="boards" id="boardss"></div>
+      </div>
+      <div class="taskbox">
+        <div id="away"></div>
+        <div class="modal">
+          <div class="form">
+            <div class="formhead">Add Task</div>
+            <div class="check">
+              <div class="checkhead">Title</div>
+              <input type="text" name="" class="error" id="title" />
+              <p class="helper-text">Бөглөнө үү</p>
+            </div>
+            <div class="check">
+              <div class="checkhead">Description</div>
+              <textarea name="" class="error" id="Description"></textarea>
+              <p class="helper-text">Бөглөнө үү</p>
+            </div>
+            <div class="check">
+              <div class="checkhead">Status</div>
+              <select name="" id="Status">
+                <option value="">Todo</option>
+                <option value="">In process</option>
+                <option value="">Done</option>
+                <option value="">Blocked</option>
+              </select>
+            </div>
+            <div class="check">
+              <div class="checkhead">Priority</div>
+              <select name="" id="Priority">
+                <option value="">low</option>
+                <option value="">Medium</option>
+                <option value="">High</option>
+              </select>
+            </div>
+            <button id="taskbtn">Add Task</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="todoApp.js"></script>
+</html>
