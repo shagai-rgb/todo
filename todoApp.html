@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="todoApp.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -19,28 +20,28 @@
             <div class="check">
               <div class="checkhead">Title</div>
               <input type="text" name="" class="error" id="title" />
-              <p class="helper-text">Бөглөнө үү</p>
+              <p class="helper-text1">Бөглөнө үү</p>
             </div>
             <div class="check">
               <div class="checkhead">Description</div>
               <textarea name="" class="error" id="Description"></textarea>
-              <p class="helper-text">Бөглөнө үү</p>
+              <p class="helper-text2">Бөглөнө үү</p>
             </div>
             <div class="check">
               <div class="checkhead">Status</div>
               <select name="" id="Status">
-                <option value="">Todo</option>
-                <option value="">In process</option>
-                <option value="">Done</option>
-                <option value="">Blocked</option>
+                <option value="Todo">Todo</option>
+                <option value="InProgress">In process</option>
+                <option value="Done">Done</option>
+                <option value="Blocked">Blocked</option>
               </select>
             </div>
             <div class="check">
               <div class="checkhead">Priority</div>
               <select name="" id="Priority">
-                <option value="">low</option>
-                <option value="">Medium</option>
-                <option value="">High</option>
+                <option value="Low">low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
               </select>
             </div>
             <button id="taskbtn">Add Task</button>
@@ -50,4 +51,8 @@
     </div>
   </body>
   <script src="todoApp.js"></script>
+  <script
+    src="https://kit.fontawesome.com/46a4280858.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

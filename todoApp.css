@@ -167,11 +167,76 @@ body {
   cursor: pointer;
   margin-top: 24px;
 }
-.helper-text {
+.helper-text1 {
   /* display: block; */
   display: none;
   color: red;
   font-size: 12px;
   padding: 4px 12px;
   margin: 0px;
+}
+.helper-text2 {
+  display: none;
+  color: red;
+  font-size: 12px;
+  padding: 4px 12px;
+  margin: 0px;
+}
+.card {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: white;
+  cursor: grab;
+  display: flex;
+  gap: 12px;
+  flex-direction: row;
+}
+.done {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.details {
+  flex: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+.priority {
+  width: fit-content;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+h4 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#addcard-button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.icon {
+  font-size: 12px;
 }
