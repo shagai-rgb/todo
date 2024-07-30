@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <div class="layout">
-        <div class="boards" id="boardss"></div>
+        <div class="boards" id="boardss" ondragover="dragDrop2(event)"></div>
       </div>
       <div class="taskbox">
         <div id="away"></div>
@@ -30,10 +30,10 @@
             <div class="check">
               <div class="checkhead">Status</div>
               <select name="" id="Status">
-                <option value="Todo">Todo</option>
-                <option value="InProgress">In process</option>
-                <option value="Done">Done</option>
-                <option value="Blocked">Blocked</option>
+                <option value="todo">Todo</option>
+                <option value="process">In process</option>
+                <option value="done">Done</option>
+                <option value="blocked">Blocked</option>
               </select>
             </div>
             <div class="check">
