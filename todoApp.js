@@ -151,10 +151,10 @@ const dragDrop1 = (event) => {
   );
 };
 
-const dragDrop2 = (event) => {
-  // const itemId = JSON.parse(event.dataTransfer.getData("text/plain"));
-  console.log(event.currentTarget.id);
-};
+// const dragDrop2 = (event) => {
+//   const itemId = JSON.parse(event.dataTransfer.getData("text/plain"));
+//   console.log(event.currentTarget.id);
+// };
 
 // const dragDrop2 = (event, id) => {
 //   event.preventDefault();
@@ -174,20 +174,20 @@ const dragDrop2 = (event) => {
 // };
 
 // boardDrop.forEach((inner, id) => {
-// inner.addEventListener("dragover", (event) => {
-//   event.preventDefault();
-// });
-// inner.addEventListener("drop", (event) => {
-// const itemId = JSON.parse(event.dataTransfer.getData("text/plain"));
-// if (!inner.children.length) {
-//   event.target.appendChild(document.getElementById(itemId.childId));
-// } else {
-//   const existingElement = document.getElementById(event.target.id);
-//   inner.removeChild(existingElement);
-//   inner.appendChild(document.getElementById(itemId.childId));
-//   const parentid = itemId.parentId;
-//   const parentElement = document.getElementById(parentid);
-//   parentElement.appendChild(existingElement);
-// }
-// });
+//   inner.addEventListener("dragover", (event) => {
+//     event.preventDefault();
+//   });
+//   inner.addEventListener("drop", (event) => {
+//     const itemId = JSON.parse(event.dataTransfer.getData("text/plain"));
+//     if (!inner.children.length) {
+//       event.target.appendChild(document.getElementById(itemId.childId));
+//     } else {
+//       const existingElement = document.getElementById(event.target.id);
+//       inner.removeChild(existingElement);
+//       inner.appendChild(document.getElementById(itemId.childId));
+//       const parentid = itemId.parentId;
+//       const parentElement = document.getElementById(parentid);
+//       parentElement.appendChild(existingElement);
+//     }
+//   });
 // });
